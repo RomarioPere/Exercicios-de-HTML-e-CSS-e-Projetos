@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: cyan;
+            margin: 0px;
+        }
+        header{
+            background-color: white
+            ;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(90, 87, 87);
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        article{
+            background-color: rgb(90, 87, 87);
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(61, 60, 60);;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p>Esportes Olímpicos</p>
+        </section>
+        <sectioni id="Notícias">
+          <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda nesciunt illum autem exercitationem nemo. Quia eos ducimus facere, sunt hic tempora dolor veritatis. Doloribus fugiat consectetur quisquam, error libero tenetur.</p>
+            <aside>
+                <p>Artigo escrito por Romário Oliveira</p>
+            </aside>
+          </article>  
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido Por Romário Oliveira</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>

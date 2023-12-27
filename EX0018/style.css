@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+}
+
+body{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 16px;
+    color: black;
+}
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+}
+
+h2{
+font-family: 'Whisper', cursive;
+}
